@@ -23,6 +23,7 @@ angular.module('todomvc', ['ngRoute'])
 			}
 		};
 
+		
 		$routeProvider
 			.when('/', routeConfig)
 			.when('/:status', routeConfig)
